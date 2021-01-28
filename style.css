@@ -1,29 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@600&family=Space+Mono:wght@400;700&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
     background-color: white;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 /*----Typography----*/
 
 header h1 {
     font-family: Inconsolata;
+    font-size: 24px;
+    letter-spacing: -0.08em;
 }
 
 .text-info {
     font-family: 'Space Mono';
+    letter-spacing: -0.035em;
+}
+
+.text-info h2 {
+    font-size: 64px;
 }
 
 .text-info h2, .text-info a {
     font-weight: 700;
 }
 
+.text-info p {
+    font-size: 24px;
+}
+
 footer span {
     font-family: Montserrat;
+    font-size: 14px;
+}
+
+/*----Structure---*/
+
+h1, h2, p {
+    margin: 0;
+}
+
+h1 {
+    padding-left: 75px;
+}
+
+img {
+    width: 539.22px;
+    height: 447.43px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text-info {
+    width: 586px;   
+}
+
+.text-info p {
+    width: 381px;
+    padding: 30px 0;
 }
 
 
-
-img {
-    width: 400px;
+footer {
+    text-align: center;
 }
