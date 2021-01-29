@@ -4,80 +4,52 @@
     box-sizing: border-box;
 }
 
-body {
-    margin: 0;
-    padding: 0;
+main {
+    color: #333;
 }
-
-.main {
-    background-color: white;
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-/*----Typography----*/
 
 header h1 {
     font-family: Inconsolata;
     font-size: 24px;
+    line-height: 25px;
     letter-spacing: -0.08em;
 }
 
 .text-info {
-    font-family: 'Space Mono';
     letter-spacing: -0.035em;
 }
 
 .text-info h2 {
-    font-size: 64px;
-}
-
-.text-info h2, .text-info a {
-    font-weight: 700;
+    font-family: Space Mono;
+    font-size: 48px;
+    line-height: 71px;
 }
 
 .text-info p {
-    font-size: 24px;
+    font-family: Space Mono;    
+    font-size: 18px;
+    line-height: 27px;
+    color: #4F4F4F;
+}
+
+.text-info a {
+    font-family: Space Mono;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background-color: #333;
+    display: inline-block;
+    padding: 24px 43px;
+    text-decoration: none;
+}
+
+.img-png {
+    padding: 3em;
 }
 
 footer span {
     font-family: Montserrat;
     font-size: 14px;
+    line-height: 17px;
 }
 
-/*----Structure---*/
-
-h1, h2, p {
-    margin: 0;
-}
-
-h1 {
-    padding-left: 75px;
-}
-
-img {
-    width: 539.22px;
-    height: 447.43px;
-}
-
-.main-content {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.text-info {
-    width: 586px;   
-}
-
-.text-info p {
-    width: 381px;
-    padding: 30px 0;
-}
-
-
-footer {
-    text-align: center;
-}
