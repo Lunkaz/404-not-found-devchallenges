@@ -71,5 +71,8 @@ footer {
     line-height: 17px;
     text-align: center;
     padding: 60px 0 42px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
