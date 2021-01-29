@@ -19,6 +19,7 @@ header h1 {
 .text-info {
     letter-spacing: -0.035em;
     padding: 24px;
+    align-self: center;
 }
 
 .text-info h2 {
@@ -27,6 +28,7 @@ header h1 {
     line-height: 71px;
     padding-right: 1px;
     max-width: 586px;
+    font-weight: 700;
 }
 
 .text-info p {
@@ -48,6 +50,7 @@ header h1 {
     padding: 24px 43px;
     text-decoration: none;
     margin: 36px 0;
+    font-weight: 700;
 }
 
 .main-content {
@@ -71,8 +74,44 @@ footer {
     line-height: 17px;
     text-align: center;
     padding: 60px 0 42px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
 
+@media (min-width:1191px) {
+
+    .main-content {
+        height: calc(100vh - (45px + 119px));
+        align-content: center;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+}
+
+@media (min-width:1440px) {
+
+    header h1 { 
+        padding: 40px 0 0 77px;
+    }
+
+    .main-content {
+        height: calc(100vh - (65px + 119px));
+    }
+    
+    img {
+        padding: 0;
+    }
+
+    .text-info h2 {
+        font-size: 64px;
+        line-height: 95px;
+    }
+
+    .text-info p {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+}
